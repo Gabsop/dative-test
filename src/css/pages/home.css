@@ -4,32 +4,3 @@
  * Styles for the Home page.
  *
  */
-
-#site-header, #site-footer, #subcontent-container {
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-  height: 50px;
-}
-
-#content-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-#content-text {
-  margin: 10px;
-}
-
-#site-header {
-  background-color: gold;
-}
-
-#site-footer {
-  background-color: rgb(0, 250, 133);
-}
-
-#subcontent-container {
-  background-color: rgb(180, 132, 235)
-}

@@ -7,15 +7,17 @@
 
 {% block content %}
 	<section>
-		<h1 id="content-text">content
-			<br/>
-			Lorem ipsum dolor sit amet consectetur, adipiscing elit. Deleniti vitae eos et, aliquid similique a nemo quod sapiente at culpa, ipsam quaerat commodi temporibus ipsum delectus amet aliquam quas nulla.</h1>
+		{% include "_partials/_content_text.twig" with {text: "content <br>
+      Lorem ipsum dolor sit amet consectetur, adipiscing elit.
+      Deleniti vitae eos et, aliquid similique a nemo quod sapiente at culpa,
+      ipsam quaerat commodi temporibus ipsum delectus amet aliquam quas nulla."}
+    %}
 	</section>
 {% endblock %}
 
 {% block subcontent %}
 	<section>
-		<h2>subcontent</h2>
+		{% include "_partials/_content_text.twig" with {text: "subcontent"}%}
 	</section>
 {% endblock %}
 
